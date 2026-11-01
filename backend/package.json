@@ -1,0 +1,39 @@
+{
+  "name": "re_dayvlog_sqlite-backend",
+  "version": "1.0.0",
+  "description": "Backend API for re_dayvlog_sqlite",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "node dist/main.js",
+    "dev": "tsx watch src/main.ts",
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@nestjs/core": "^11.0.0",
+    "@nestjs/common": "^11.0.0",
+    "@nestjs/platform-express": "^11.0.0",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.1",
+    "dotenv": "^16.4.7",
+    "@prisma/client": "^6.4.0",
+    "lodash": "latest",
+    "jsonwebtoken": "latest",
+    "bcrypt": "latest",
+    "uuid": "latest",
+    "zod": "latest",
+    "axios": "latest",
+    "cookie-parser": "latest"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "prisma": "^6.4.0",
+    "typescript": "^5.7.3",
+    "tsx": "^4.19.2",
+    "@types/node": "^22.13.0",
+    "@types/lodash": "latest",
+    "@types/jsonwebtoken": "latest",
+    "@types/bcrypt": "latest",
+    "@types/uuid": "latest",
+    "@types/cookie-parser": "latest"
+  }
+}
